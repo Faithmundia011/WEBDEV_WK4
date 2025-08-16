@@ -1,6 +1,4 @@
-/* =============================
-   Global Styles
-============================= */
+  Global Styles
 * {
   box-sizing: border-box;
   margin: 0;
@@ -14,9 +12,8 @@ body {
   color: #333;
 }
 
-/* =============================
+
    Header + Navigation
-============================= */
 .header {
   background: #4CAF50;
   color: white;
@@ -42,9 +39,8 @@ body {
   text-decoration: underline;
 }
 
-/* =============================
+
    Hero Section
-============================= */
 .hero {
   background: #e3f2e1;
   text-align: center;
@@ -55,9 +51,8 @@ body {
   margin-bottom: 10px;
 }
 
-/* =============================
+
    Grid Layout
-============================= */
 .grid-demo {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
@@ -73,9 +68,8 @@ body {
   border-radius: 8px;
 }
 
-/* =============================
+
    Flexbox Layout
-============================= */
 .flex-demo {
   display: flex;
   justify-content: space-around;
@@ -92,9 +86,7 @@ body {
   border-radius: 5px;
 }
 
-/* =============================
    Footer
-============================= */
 .footer {
   background: #333;
   color: white;
@@ -103,10 +95,8 @@ body {
   margin-top: 20px;
 }
 
-/* =============================
-   Media Queries for Responsiveness
-============================= */
 
+   Media Queries for Responsiveness
 /* Tablet view */
 @media (max-width: 900px) {
   .grid-demo {
@@ -134,3 +124,4 @@ body {
     gap: 10px;
   }
 }
+
